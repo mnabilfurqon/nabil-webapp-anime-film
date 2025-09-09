@@ -1,0 +1,31 @@
+.detail-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.back-buttons,
+.more-detail-buttons {
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+  border: none;
+  color: #fff !important;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 6px 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 8px rgba(238, 9, 121, 0.6);
+}
+
+.back-buttons:hover,
+.more-detail-buttons:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 12px rgba(255, 106, 0, 0.8);
+  color: #1e1e2f !important;
+}
+
+.back-buttons:active,
+.more-detail-buttons:active {
+  transform: scale(0.95);
+  color: #1e1e2f !important;
+}

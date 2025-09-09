@@ -1,0 +1,68 @@
+.header-menu {
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 0 20px;
+}
+
+.menu-nav {
+  background: transparent !important;
+  border-bottom: none !important;
+  line-height: 64px;
+}
+
+.menu-nav .ant-menu-item a {
+  color: #ddd;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.menu-nav .ant-menu-item:hover a {
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 600;
+}
+
+.menu-nav .ant-menu-item-selected a {
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 500;
+}
+
+.custom-footer {
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  padding: 30px 20px 15px;
+  text-align: center;
+  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.4);
+}
+
+.footer-content {
+  margin-bottom: 15px;
+}
+
+.footer-icon {
+  font-size: 24px;
+  color: #aaa;
+  transition: all 0.3s ease;
+}
+
+.footer-icon:hover {
+  color: #ff6a00;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding-top: 10px;
+}
+
+.footer-text {
+  margin: 0;
+  font-size: 13px;
+  color: #999;
+}

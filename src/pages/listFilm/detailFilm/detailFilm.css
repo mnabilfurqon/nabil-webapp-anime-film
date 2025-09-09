@@ -1,0 +1,33 @@
+.film-detail {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+}
+
+.detail-card {
+  max-width: 800px;
+  background: #1e1e2f;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  border: 1px solid #302b63;
+  border-radius: 16px;
+}
+
+.detail-card h2 {
+  color: #ff6a00;
+  margin-bottom: 16px;
+}
+
+.detail-card p {
+  color: #ccc;
+  line-height: 1.6;
+}
+
+.loading-container {
+  text-align: center;
+  padding: 80px 0;
+}
+.loading-container .ant-spin-dot-item {
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+}

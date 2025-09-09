@@ -1,0 +1,41 @@
+.anime-detail {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+}
+
+.detail-card {
+  background: #1a1a2e;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.3);
+  animation: fadeInUp 0.8s ease forwards;
+  transform: translateY(20px);
+  opacity: 0;
+}
+
+.detail-card h2 {
+  font-size: 24px;
+  font-weight: bold;
+  background: linear-gradient(270deg, #ff6a00, #ee0979, #ff6a00);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradientFlow 4s ease infinite;
+  margin-bottom: 16px;
+}
+
+@keyframes fadeInUp {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes gradientFlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
