@@ -1,6 +1,5 @@
 import { Card, Image, Row, Col } from "antd";
 import { motion } from "framer-motion";
-import fotoProfil from "../../assets/foto-profil.jpg";
 import "./profil.css";
 
 const Profil = () => {
@@ -23,7 +22,7 @@ const Profil = () => {
                   preview={false}
                   width={200}
                   height={200}
-                  src={fotoProfil}
+                  src="/assets/foto-profil.JPG"
                   className="avatar"
                 />
               </motion.div>
