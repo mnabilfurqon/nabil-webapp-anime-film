@@ -6,7 +6,7 @@ import {
 } from "@ant-design/icons";
 import { Layout, Menu, Space } from "antd";
 import { Content, Footer, Header } from "antd/es/layout/layout";
-import "./LayoutComponent.css";
+import "./layoutComponent.css";
 
 if (location.pathname === "/") {
 } else if (location.pathname === "/list-anime") {

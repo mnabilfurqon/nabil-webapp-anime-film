@@ -1,6 +1,6 @@
 import { Input } from "antd";
 const { Search } = Input;
-import './SearchButton.css';
+import './searchButton.css';
 
 const SearchButton = ({ placeholder, onSearch }) => {
   return (

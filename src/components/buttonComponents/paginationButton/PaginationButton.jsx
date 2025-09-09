@@ -1,5 +1,5 @@
 import { Pagination } from "antd";
-import './PaginationButton.css';
+import './paginationButton.css';
 
 const PaginationButton = ({ current, pageSize, total, onChange }) => {
   return (
