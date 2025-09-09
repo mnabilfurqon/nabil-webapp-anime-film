@@ -13,7 +13,7 @@ const DetailAnime = () => {
   useEffect(() => {
     const fetchAnimeDetail = async () => {
       try {
-        const res = await axios.get(`https://api.jikan.moe/v4/anime/${id}`);
+        const res = await axios.get(`${import.meta.env.VITE_JIKAN_API}/anime/${id}`);
         setAnime(res.data.data);
       } catch (err) {
         console.error("Error fetching anime detail:", err);

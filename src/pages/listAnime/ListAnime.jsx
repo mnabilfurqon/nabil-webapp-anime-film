@@ -18,7 +18,7 @@ const ListAnime = () => {
   const fetchAnime = async (searchQuery = "", currentPage = 1) => {
     setLoading(true);
     try {
-      const res = await axios.get("https://api.jikan.moe/v4/anime", {
+      const res = await axios.get(import.meta.env.VITE_JIKAN_API + "/anime", {
         params: {
           q: searchQuery,
           page: currentPage,
